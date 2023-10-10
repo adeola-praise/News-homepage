@@ -28,116 +28,139 @@
     </style>
   </head>
   <body>
-    <header class="header">
-      <img
-        id="logo"
-        src="../news-homepage-main/assets/images/logo.svg"
-        alt="News Page Logo"
-      />
-      <nav class="desktop-nav">
-        <a href="">Home</a>
-        <a href="">New</a>
-        <a href="">Popular</a>
-        <a href="">Trending</a>
-        <a href="">Categories</a>
-      </nav>
-
-      <button id="menuBtn">
+    <div class="container">
+      <header class="header">
         <img
-          src="../news-homepage-main/assets/images/icon-menu.svg"
-          alt="Hamburger menu icon"
+          id="logo"
+          src="../news-homepage-main/assets/images/logo.svg"
+          alt="News Page Logo"
         />
-      </button>
-    </header>
 
-    <div class="grid-container">
-      <img
-        id="desktop-illustration"
-        src="../news-homepage-main/assets/images/image-web-3-desktop.jpg"
-        alt="An illustration"
-      />
-      <img
-        id="mobile-illustration"
-        src="../news-homepage-main/assets/images/image-web-3-mobile.jpg"
-        alt="An illustration"
-      />
-      <main class="main-content">
-        <h1 id="intro-heading">The Bright Future of Web 3.0?</h1>
-        <div class="main-paragraph">
-          <p class="paragraph">
-            We dive into the next evolution of the web that claims to put the
-            power of the platforms back into the hands of the people. But is it
-            really fulfilling its promise?
-          </p>
-          <button id="readMoreBtn">Read more</button>
-        </div>
-      </main>
+        <nav>
+          <ul class="sidebar">
+            <li id="menuClose">
+              <a href="#"
+                ><img
+                  src="../news-homepage-main/assets/images/icon-menu-close.svg"
+                  alt="menu close icon"
+              /></a>
+            </li>
+            <li class="mobile-nav"><a href="#">Home</a></li>
+            <li class="mobile-nav"><a href="#">New</a></li>
+            <li class="mobile-nav"><a href="#">Popular</a></li>
+            <li class="mobile-nav"><a href="#">Trending</a></li>
+            <li class="mobile-nav"><a href="#">Categories</a></li>
+          </ul>
+        </nav>
 
-      <aside class="newPosts">
-        <h2 id="newPosts-heading">New</h2>
-        <article class="post">
-          <a class="postHeading" href="#">Hydrogen VS Electric Cars</a>
-          <p class="paragraph">
-            Will hydrogen-fueled cars ever catch up to EVs?
-          </p>
-        </article>
-        <article class="post">
-          <a class="postHeading" href="#">The Downsides of AI Artistry</a>
-          <p class="paragraph">
-            What are the possible adverse effects of on-demand AI image
-            generation?
-          </p>
-        </article>
-        <article class="post">
-          <a class="postHeading" href="#">Is VC Funding Drying Up?</a>
-          <p class="paragraph">
-            Private funding by VC firms is down 50% YOY. We take a look at what
-            that means.
-          </p>
-        </article>
-      </aside>
+        <nav>
+          <ul class="desktop-nav">
+            <li class="nav"><a href="#">Home</a></li>
+            <li class="nav"><a href="#">New</a></li>
+            <li class="nav"><a href="#">Popular</a></li>
+            <li class="nav"><a href="#">Trending</a></li>
+            <li class="nav"><a href="#">Categories</a></li>
+            <li class="nav"><a href="#">Categories</a></li>
+          </ul>
+        </nav>
 
-      <section class="articles">
-        <article class="articleCard">
+        <button id="menuBtn">
           <img
-            src="../news-homepage-main/assets/images/image-retro-pcs.jpg"
-            alt="An image of a retro PC"
+            src="../news-homepage-main/assets/images/icon-menu.svg"
+            alt="Hamburger menu icon"
           />
-          <div class="articleSummary">
-            <h3>01</h3>
-            <a>Reviving Retro PCs</a>
+        </button>
+      </header>
+
+      <div class="grid-container">
+        <img
+          id="desktop-illustration"
+          src="../news-homepage-main/assets/images/image-web-3-desktop.jpg"
+          alt="An illustration"
+        />
+        <img
+          id="mobile-illustration"
+          src="../news-homepage-main/assets/images/image-web-3-mobile.jpg"
+          alt="An illustration"
+        />
+        <main class="main-content">
+          <h1 id="intro-heading">The Bright Future of Web 3.0?</h1>
+          <div class="main-paragraph">
             <p class="paragraph">
-              What happens when old PCs are given modern upgrades?
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
             </p>
+            <button id="readMoreBtn">Read more</button>
           </div>
-        </article>
-        <article class="articleCard">
-          <img
-            src="../news-homepage-main/assets/images/image-top-laptops.jpg"
-            alt="An image of several Laptops"
-          />
-          <div class="articleSummary">
-            <h3>02</h3>
-            <a>Top 10 Laptops of 2022</a>
+        </main>
+
+        <aside class="newPosts">
+          <h2 id="newPosts-heading">New</h2>
+          <article class="post">
+            <a class="postHeading" href="#">Hydrogen VS Electric Cars</a>
             <p class="paragraph">
-              Our best picks for various needs and budgets.
+              Will hydrogen-fueled cars ever catch up to EVs?
             </p>
-          </div>
-        </article>
-        <article class="articleCard">
-          <img
-            src="../news-homepage-main/assets/images/image-gaming-growth.jpg"
-            alt="A gaming pad over a hand"
-          />
-          <div class="articleSummary">
-            <h3>03</h3>
-            <a>The Growth of Gaming</a>
+          </article>
+          <article class="post">
+            <a class="postHeading" href="#">The Downsides of AI Artistry</a>
             <p class="paragraph">
-              How the pandemic has sparked fresh opportunities.
+              What are the possible adverse effects of on-demand AI image
+              generation?
             </p>
-          </div>
-        </article>
-      </section>
+          </article>
+          <article class="post">
+            <a class="postHeading" href="#">Is VC Funding Drying Up?</a>
+            <p class="paragraph">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </article>
+        </aside>
+
+        <section class="articles">
+          <article class="articleCard">
+            <img
+              src="../news-homepage-main/assets/images/image-retro-pcs.jpg"
+              alt="An image of a retro PC"
+            />
+            <div class="articleSummary">
+              <h3>01</h3>
+              <a class="articleTitle">Reviving Retro PCs</a>
+              <p class="paragraph">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </article>
+          <article class="articleCard">
+            <img
+              src="../news-homepage-main/assets/images/image-top-laptops.jpg"
+              alt="An image of several Laptops"
+            />
+            <div class="articleSummary">
+              <h3>02</h3>
+              <a class="articleTitle">Top 10 Laptops of 2022</a>
+              <p class="paragraph">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </article>
+          <article class="articleCard">
+            <img
+              src="../news-homepage-main/assets/images/image-gaming-growth.jpg"
+              alt="A gaming pad over a hand"
+            />
+            <div class="articleSummary">
+              <h3>03</h3>
+              <a class="articleTitle">The Growth of Gaming</a>
+              <p class="paragraph">
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </div>
+          </article>
+        </section>
+      </div>
     </div>
 
     <div class="attribution">
@@ -146,5 +169,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
